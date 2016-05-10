@@ -11,6 +11,7 @@ def get_more_data(weeks):
     driver = webdriver.Chrome()
     driver.get('http://www.chinaclear.cn/cms-webapp/wcm/toErveyWeek_mzkb.action')
     web_data = []
+    web_data.append(driver.page_source)
     for i in range(1,weeks+1):
         element = driver.find_element_by_class_name("prev")
         element.click()
