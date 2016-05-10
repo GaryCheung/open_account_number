@@ -69,7 +69,7 @@ config = {
 
 present_date = datetime.now().date()
 
-weeks = 20
+weeks = 20      #最近20周的开户情况
 delete_today_data(config)
 web_data = get_more_data(weeks)
 get_new_investor(web_data)
