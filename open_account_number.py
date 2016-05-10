@@ -4,6 +4,7 @@ from datetime import date,datetime
 import pymysql
 import time
 import re
+from selenium import webdriver
 
 def delete_today_data(config):
     connection = pymysql.connect(**config)
