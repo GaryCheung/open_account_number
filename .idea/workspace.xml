@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2bab5ec4-0054-4e4c-9cd2-5ff218d4aa70" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_account_number_v2.0.py" afterPath="$PROJECT_DIR$/open_account_number_v2.0.py" />
     </list>
     <ignored path="open_account_number.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -356,7 +355,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462851764819</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some comments">
+      <created>1462859142917</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1462859142918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,7 +412,8 @@
     <MESSAGE value="open account number stastic" />
     <MESSAGE value="dynamic getting number of stock open account" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="some comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
