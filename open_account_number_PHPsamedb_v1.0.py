@@ -60,11 +60,12 @@ def get_new_investor(web_data):
 
 config = {
     'host':'127.0.0.1',
-    'port':3306,
+    'port':8889,
     'user':'root',
-    'password':'19860112',
+    'password':'root',
     'db':'new_investor',
-    'charset':'utf8'
+    'charset':'utf8',
+    'unix_socket':'/Applications/MAMP/tmp/mysql/mysql.sock'
 }
 
 present_date = datetime.now().date()
